@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Dancing Script', cursive;
+}
+
+body {
+    margin: 0px;
+}
+
+#main {
+    background-color: #e6e6e6;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 15px;
+}
+
+.story {
+    text-align: justify;
+    padding: 0px 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.images {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+#img-div {
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#img-caption {
+    margin: 15px 0px 5px 0px;
+    text-align: center;
+    font-style: italic;
+}
+
+#timeline {
+    float: left;
+    margin: 5px;
+}
+
+#tribute-info {
+    text-align: left;
+}
+
+.title {
+    text-align: center;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.container {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+blockquote {
+    margin-top: 35px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.wiki {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+hr {
+    width: 90%;
+}
+
+.dev {
+    text-align: center;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 960px){
+    h1 {
+        text-align: center;
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    h1 {
+        text-align: center;
+        font-size: 1.3rem;
+    }
+}
